@@ -1,0 +1,7 @@
+[2024-06-14 06:37:56,130] {processor.py:153} INFO - Started process (PID=10133) to work on /opt/airflow/dags/nobel_prize.py
+[2024-06-14 06:37:56,131] {processor.py:641} INFO - Processing file /opt/airflow/dags/nobel_prize.py for tasks to queue
+[2024-06-14 06:37:56,132] {logging_mixin.py:115} INFO - [2024-06-14 06:37:56,132] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/nobel_prize.py
+[2024-06-14 06:37:56,353] {processor.py:651} INFO - DAG(s) dict_keys(['nobel_prize']) retrieved from /opt/airflow/dags/nobel_prize.py
+[2024-06-14 06:37:56,363] {logging_mixin.py:115} INFO - [2024-06-14 06:37:56,363] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-06-14 06:37:56,375] {logging_mixin.py:115} INFO - [2024-06-14 06:37:56,375] {dag.py:2919} INFO - Setting next_dagrun for nobel_prize to 2024-06-14T00:00:00+00:00, run_after=2024-06-15T00:00:00+00:00
+[2024-06-14 06:37:56,381] {processor.py:161} INFO - Processing /opt/airflow/dags/nobel_prize.py took 0.253 seconds
