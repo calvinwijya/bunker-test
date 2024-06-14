@@ -11,13 +11,6 @@ This Repository is part of the bunker data engineer take home assignment. what t
 
 - Ensure you have Docker installed on your machine. If not, you can download and install it from [Docker's official site](https://www.docker.com/products/docker-desktop).
 
-## Run from Airflow UI
-1. Go to http://localhost:8080/
-2. Login with this information
-    - username -> airflow
-    - password -> airflow
-3. CMD + f / CTRL + f and search for `nobel_prize` DAG
-
 ## Steps to Setup the Project
 
 1. **Run Docker Compose**
@@ -48,6 +41,13 @@ This Repository is part of the bunker data engineer take home assignment. what t
     ```sh
     make down
     ```
+## Run from Airflow UI
+1. Go to http://localhost:8080/
+2. Login with this information
+    - username -> airflow
+    - password -> airflow
+3. CMD + f / CTRL + f and search for `nobel_prize` DAG
+
 ## Summary
 Overall this project is built in one repository which means that this design is just for this specific task. At the production level, of course we have to standardize code organization, OOP design, project structure and so on. It depends on User requirements, team goals, and following existing best practices. Here is a [list of improvements](ROADMAP.md) that I think will make our lives easier to make these pipelines more efficient, robust, and automated 
 
