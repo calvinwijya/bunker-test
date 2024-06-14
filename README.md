@@ -11,7 +11,7 @@ This Repository is part of the bunker data engineer take home assignment. what t
 
 - Ensure you have Docker installed on your machine. If not, you can download and install it from [Docker's official site](https://www.docker.com/products/docker-desktop).
 
-## Run fromcAirflow UI
+## Run from Airflow UI
 1. Go to http://localhost:8080/
 2. Login with this information
     - username -> airflow
