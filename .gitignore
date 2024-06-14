@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+.idea/
+.DS_Store
+spark-3.5.*
+*.tgz
+__pycache__/
