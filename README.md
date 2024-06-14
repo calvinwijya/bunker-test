@@ -1,7 +1,7 @@
 # Project Setup Guide
 
 ## Overview
-This Repository is aprt of the bunker data engineer take home assignment. what this repo does is
+This Repository is part of the bunker data engineer take home assignment. what this repo does is
 1. Setup Airflow and Jupyter Notebook
 2. extract data from [Nobel Prize API](https://app.swaggerhub.com/apis/NobelMedia/NobelMasterData/2.1#/default/get_nobelPrizes)
 2. transform and store the data in csv file format that are in 3NF
