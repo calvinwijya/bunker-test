@@ -2,7 +2,7 @@
 
 ## Overview
 This Repository is aprt of the bunker data engineer take home assignment. what this repo does is
-1. setup a Jupyter workspace
+1. Setup Airflow and Jupyter Notebook
 2. extract data from  [Nobel Prize API](https://app.swaggerhub.com/apis/NobelMedia/NobelMasterData/2.1#/default/get_nobelPrizes)
 2. transform and store the data in csv file format that are in 3NF
 3. a SQL query will be provided inside the `nobel_prize.ipynb` notebook to get the individuals who have won the most nobel awards (you'll able to explore more on the transformed tables)
