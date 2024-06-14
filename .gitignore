@@ -4,3 +4,5 @@
 spark-3.5.*
 *.tgz
 __pycache__/
+data/*
+logs/*
