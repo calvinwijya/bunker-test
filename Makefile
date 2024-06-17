@@ -6,7 +6,7 @@ down:
 
 restart: down up
 
-extract:
+test:
 	docker exec -it bunker-test-airflow-worker-1 /bin/bash -c "airflow tasks test nobel_prize extract_nobel_prize 2024-06-14"
 
 explore:
